@@ -1,0 +1,65 @@
+/* Universidad Yachay Tech
+Diego Hernán Suntaxi Domínguez
+Curso de Web Programming
+Prof. Rigoberto Fonseca */
+ 
+ $item-nav-color: #ffffff;
+ $nav-color: #c1ef80;
+ $font-size-nav: 12pt;
+ $font-family-1: 'Montserrat', sans-serif;
+ $font-family-2: 'Oswald', sans-serif;
+ $font-family-3: 'Raleway', sans-serif;
+ $letter-spacing: 1.5px;
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(28, 31, 32);
+      }
+}
+
+%h1-headers {
+    font-family: $font-family-1;
+    color: $nav-color;
+    font-weight: 800;
+    text-align: center;
+    font-size: 35pt;
+}
+
+
+#top-header.container {
+    background-color: $nav-color;
+}
+
+#carouselExampleSlidesFade {
+    div {
+        div {
+            img {
+                border-radius: 8px;
+            }
+        }
+    }
+}
+.nav-link {
+    color: $item-nav-color;
+    font-size: $font-size-nav;
+    font-family: $font-family-2;
+    letter-spacing: $letter-spacing;
+    /* font-weight: 600; */
+}
+
+.nav.nav-tabs.justify-content-end {
+    border-color: $item-nav-color;
+}
+
+#nav-title {
+    font-family: $font-family-1;
+    color: $item-nav-color;
+    font-size: 25pt;
+    font-weight: 600;
+}
+
+
+#h1-index {
+    @extend %h1-headers;
+    text-align: center;
+}
