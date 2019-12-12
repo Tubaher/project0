@@ -63,3 +63,7 @@ Prof. Rigoberto Fonseca */
     @extend %h1-headers;
     text-align: center;
 }
+
+#tr-headers {
+    background-color: $nav-color;
+}
