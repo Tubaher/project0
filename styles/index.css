@@ -16,6 +16,14 @@ Prof. Rigoberto Fonseca */
   font-size: 35pt;
 }
 
+ul > li {
+  background-color: aqua;
+}
+
+ul.example {
+  font-size: 35px;
+}
+
 #list-exp li {
   color: #111111;
 }
