@@ -24,6 +24,10 @@ ul.example {
   font-size: 35px;
 }
 
+p::before {
+  content: "Read this: ";
+}
+
 #list-exp li {
   color: #111111;
 }
